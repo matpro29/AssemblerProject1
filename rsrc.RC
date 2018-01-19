@@ -1,0 +1,25 @@
+#define Menu1ID1   1
+#define Menu1ID2   2
+#define Menu1ID3   3
+
+FirstMenu MENU
+{
+    POPUP "&Gra"
+    {
+        MENUITEM "&[N] Nowa gra",Menu1ID1
+        MENUITEM "&[P] Pauza",Menu1ID2
+        MENUITEM SEPARATOR
+        MENUITEM "&[Z] Zakoñcz",Menu1ID3
+    }
+    POPUP "&Sterowanie"
+    {
+	MENUITEM "&[W] Podskocz",0
+	MENUITEM "&[S] Kucnij",0
+	MENUITEM "&[A] Zwolnij",0
+	MENUITEM "&[D] Przyœpiesz",0
+    }
+    POPUP "&Autor"
+    {
+	MENUITEM "&Mateusz Proskura",0
+    }
+}
